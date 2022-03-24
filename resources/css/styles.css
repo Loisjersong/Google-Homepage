@@ -1,4 +1,6 @@
-/* Navigation Bar */
+/* ------------------------------
+# Navigation Bar
+------------------------------ */
 nav {
     margin-top: 20px;
 }
@@ -40,7 +42,9 @@ nav li a:hover {
     padding: 5 10px;
 }
 
-/* Main */
+/* ------------------------------
+#Main Content
+------------------------------ */
 main {
     margin: auto 0;
     width: 100px;
@@ -51,6 +55,7 @@ main {
     right: 0;
     position: absolute;
 }
+
 main h1 {
     text-align: center;
     font-size: 100px;
@@ -73,10 +78,15 @@ main h1 .ggl-gr {
     color: #0F9D58;
 }
 
-#search-btn {
-    border-radius: 20px;
+#search-btn-div {
+    text-align: center;
 }
 
+#search-btn-div input {
+    border-radius: 15px;
+    border: 1px gray solid;
+    width: 100%;
+}
 
 .input-group-text {
     background-color: white;
