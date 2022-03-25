@@ -42,6 +42,18 @@ nav li a:hover {
     padding: 5 10px;
 }
 
+@media only screen and (max-width: 1199px) {
+    nav {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    nav {
+        font-size: 2.2vw;
+    }
+}
+
 /* ------------------------------
 #Main Content
 ------------------------------ */
@@ -78,6 +90,29 @@ main h1 .ggl-gr {
     color: #0F9D58;
 }
 
+@media only screen and (max-width: 1199px) {
+    main h1 {
+        font-size: 80px;
+        letter-spacing: -13px;
+    }
+    main button {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    main h1 {
+        font-size: 13vw;
+        letter-spacing: -2.2vw;
+    }
+    main button {
+        font-size: 2.2vw;
+    }
+}
+
+.search-container {
+    margin: 15px 0;
+}
 #search-btn-div {
     text-align: center;
 }
